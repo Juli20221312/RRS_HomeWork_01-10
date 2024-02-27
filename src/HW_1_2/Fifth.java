@@ -1,3 +1,5 @@
+package HW_1_2;
+
 public class Fifth {
     // по картинке с изолентой и вэдэшкой
     public static void main(String[] args) {

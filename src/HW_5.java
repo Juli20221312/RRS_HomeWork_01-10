@@ -154,8 +154,8 @@ public class HW_5 {
                 System.out.print("  ");
             }
 
-            for (int j = 0; j < i; j++) {
-                System.out.print(j + " ");
+            for (int k = 0; k < i; k++) {
+                System.out.print(k + " ");
             }
             System.out.println();
         }

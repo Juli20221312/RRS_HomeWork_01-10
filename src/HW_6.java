@@ -2,6 +2,8 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static java.lang.Long.sum;
+
 
 //public class HW_6 {
 //    public static void main(String[] args) {
@@ -117,6 +119,7 @@ public class HW_6 {
 //        divTwoNumbers(10, 3);
 //
 //    }
+
 ////        Задача №1
 ////
 ////        Необходимо написать 4 метода:
@@ -149,13 +152,54 @@ public class HW_6 {
 //    public static int doubleInteger(int i) {
 //        return i*2;
 
-//        https://www.codewars.com/kata/555086d53eac039a2a000083/train/java
+        //        https://www.codewars.com/kata/555086d53eac039a2a000083/train/java
+//        1 вариант
+//        public static boolean isLove(final int flower1, final int flower2) {  //main надо тоже закомментировать
+//            return (flower1+flower2)%2!=0;
+//        }
+//        2 вариант
+//    public static boolean isLove(final int flower1, final int flower2) {
+//        return flower1 % 2 != flower2 % 2;
+//    }
 
 
 //        https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/java
+//       1 вариант
+//        public static String numberToString(int num) {
+//            String str = String.valueOf (num);
+//            return str;
+//        }
+//        2 вариант (простой, 1 правильнее)
+//        public static String numberToString(int num){
+//            return "" + num;
+//        }
+//        3 вариант
+//        IntegerToString
+
+
 //        https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java
+//        public static int findSmallestInt(int[] args) {
+//            int min = Integer.MAX_VALUE;
+//            for (int i = 0; i < args.length; i++) {
+//                if (args[i]< min) {
+//                    min = args[i];
+//                }
+//            }
+//            return min;
+//        }
+
+
 //        https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
-        }
+//        public static String countingSheep(int num) {
+//            String result = "";
+//            for (int i = 1; i <= num; i++) {
+//                result = result + i + " sheep...";
+//            }
+//            return result;
+//        }
 
-}
+    }
+
+ }
+
