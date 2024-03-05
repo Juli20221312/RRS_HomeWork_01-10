@@ -57,5 +57,16 @@ public class Fighter {
         public void attack(Fighter opponent) {
             opponent.setHealth(opponent.getHealth() - this.damagePerAttack);
         }
-   }
+
+    // второй вариант + main
+//    public String name;
+//    public int health, damagePerAttack;
+//
+//    public Fighter(String name, int health, int damagePerAttack) {
+//        this.name = name;
+//        this.health = health;
+//        this.damagePerAttack = damagePerAttack;
+//    }
+
+}
 
