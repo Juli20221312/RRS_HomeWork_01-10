@@ -18,8 +18,8 @@ package HW_10;
 
 public class Worker extends Employee{
 
-//    public double getSalary() {
-//        return getBaseSalary();
-//    };
+    public double getSalary() {
+        return getBaseSalary();
+    };
 
 }
